@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/listviewdata"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/fruits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="44dp"
+            android:layout_toStartOf="@+id/images"
+            android:text="Apple"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fruits"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="44dp"
+            android:layout_toStartOf="@+id/images"
+            android:text="kk"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="80dp"
+            android:layout_height="95dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="27dp"
+            android:src="@drawable/ic_launcher_background" />
+    </RelativeLayout>
+
+</RelativeLayout>
